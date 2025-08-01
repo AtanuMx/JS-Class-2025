@@ -9,5 +9,64 @@
     <h2>
         Welcome to Our Web Page
     </h2>
+    <pre>
+        <h2>
+            James is here with us
+        </h2>
+    </pre>
+
+
+
+    <script>
+        // let number; // Declare a variable
+        // let grade; // Declare a variable for grade
+
+        // // Accept a number from the user
+        // number = parseInt(prompt("Enter a numeric value"));
+
+        // // Evaluate the number to ascertain the grade
+        // if (number >= 90 && number <= 100) {
+        //     grade = "A";
+        // }else if (number >= 80 && number <= 89){
+        //     grade = "B";
+        // }else if (number >= 70 && number <= 79){
+        //     grade = "C";
+        // }else if (number >= 60 && number <= 69){
+        //     grade = "D";
+        // }else if (number < 69){
+        //     grade = "F";
+        // }else {
+        //     grade = "Invalid Score";
+        // }
+        
+        // alert("Your grade is : " + grade)
+
+
+
+        // Food Menu Using Switch
+        let promptStr = "Choose what you like to have from the menu below\n" + 
+                        "1.\t Amala and Ewedu\n" +
+                        "2.\t Egusi and Eba\n";
+        let response;
+        
+        response = prompt(promptStr);
+
+        switch (parseInt(response)) {
+            case 1:
+                alert("Your Amala is on its way!");
+                break;
+            
+            case 2:
+                alert("Egusi is finished!")
+                break;
+
+            default:
+                alert("Invalid option selected");
+                break;
+        }
+
+
+
+    </script>
 </body>
 </html>
